@@ -19,7 +19,7 @@
 //     >= 0 and <= 6 => "Child",
 //     >= 7 and <= 17 => "Teen",
 //     >= 18 and <= 64 => "Adult",
-//     >= 65 => "Pensioner"
+//     _ => "Pensioner"
 // };
 
 // Console.WriteLine(category);
