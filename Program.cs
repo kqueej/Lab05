@@ -29,10 +29,10 @@
 
 // string tariff = hour switch
 // {
-//     <= 5 => "night tarrif",
-//     <= 9 => "morning tarrif",
-//     <= 17 => "day tarrif",
-//     <= 23 => "evening tarrif",
+//     <= 5 => "night tariff",
+//     <= 9 => "morning tariff",
+//     <= 17 => "day tariff",
+//     <= 23 => "evening tariff",
 //     _ => "incorrect"
 // };
 
