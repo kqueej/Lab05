@@ -56,8 +56,8 @@
 //             Console.WriteLine("No ticket");
 //             break;
 // }
-// Дополнительное задание №1
 
+// Дополнительное задание №1
 // int number = 42;
 // string result = number switch
 // {
