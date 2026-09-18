@@ -29,11 +29,11 @@
 
 // string tariff = hour switch
 // {
-//     >= 0 and <= 5 => "Night tariff",
-//     >= 6 and <= 9 => "Morning tariff",
-//     >= 10 and <= 17 => "Day tariff",
-//     >= 18 and <= 23 => "Evening tariff",
-//     _ => "Invalid hour"
+//     <= 5 => "night tarrif",
+//     <= 9 => "morning tarrif",
+//     <= 17 => "day tarrif",
+//     <= 23 => "evening tarrif",
+//     _ => "incorrect"
 // };
 
 // Console.WriteLine(tariff);
@@ -47,13 +47,13 @@
 // switch (age)
 // {
 //     case < 18:
-//         Console.WriteLine("Age is not suitable");
+//         Console.WriteLine("age is not correct");
 //         break;
 //     case >= 18 when ticketT:
-//         Console.WriteLine("Entry allowed");
+//         Console.WriteLine("entry allowed");
 //         break;
 //     case >= 18:
-//             Console.WriteLine("No ticket");
+//             Console.WriteLine("no ticket");
 //             break;
 // }
 
@@ -61,10 +61,10 @@
 // int number = 42;
 // string result = number switch
 // {
-//    < 0 => "Negative",
-//    >= 0 and <= 9 => "Single digit",
-//    >= 10 and >= 99 => "Double digit",
-//    _ => "Triple and more digit"
+//    < 0 => "negative",
+//    >= 0 and <= 9 => "single digit",
+//    >= 10 and >= 99 => "double digit",
+//    _ => "triple and more digit"
 // };
 
 
@@ -72,11 +72,11 @@
 // int number = 42;
 // string result = number switch
 // {
-//     1 or 2 or 3 => "Small number",
+//     1 or 2 or 3 => "small number",
 //     < 0 => "Negative",
-//     >= 0 and <= 9 => "Sigle digit",
-//     >= 10 and <= 99 => "Double digit",
-//     _ => "Triple and more digit"
+//     >= 0 and <= 9 => "sigle digit",
+//     >= 10 and <= 99 => "double digit",
+//     _ => "triple and more digit"
 // };
 
 // Console.WriteLine(result);
